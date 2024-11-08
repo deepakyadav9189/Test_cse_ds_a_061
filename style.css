@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+.login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.heading {
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.welcome {
+    color: #66bb6a;
+    margin: 10px 0;
+}
+
+.user-panel {
+    margin: 20px 0;
+}
+
+button {
+    align-self: auto;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #66bb6a;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+.logout {
+    background-color: #dc3545;
+    margin-top: 20px;
+}
+
+.logout:hover {
+    background-color: #d9534f;
+}
+
+#user-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#user-list li {
+    color: blue;
+    cursor: pointer;
+}
